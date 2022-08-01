@@ -1,0 +1,52 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    margin: 0px;
+    font-size: 10px;
+    height: 10em;
+    background-color: #51534abb;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    transition: 0.2s;
+    border-bottom: 2px solid #51534a;
+}
+
+header.scrolled {
+    font-size: 6px;
+    background-color: #51534aff
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+img {
+    height: 6em;
+}
+
+h1 {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2.2em;
+}
+
+main {
+    padding-top: 100px;
+    font-size: 1.6rem;
+    transition: 0.2s;
+}
+
+main.scrolled {
+    padding-top: 50px;
+}
