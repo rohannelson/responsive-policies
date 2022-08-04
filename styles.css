@@ -14,7 +14,7 @@ header {
     width: 100%;
     position: fixed;
     top: 0;
-    transition: 0.2s;
+    transition: 0.25s;
     border-bottom: 2px solid #51534a;
 }
 
@@ -44,9 +44,4 @@ h1 {
 main {
     padding-top: 100px;
     font-size: 1.6rem;
-    transition: 0.2s;
-}
-
-main.scrolled {
-    padding-top: 50px;
 }
